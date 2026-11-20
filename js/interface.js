@@ -21,7 +21,7 @@
   const C = global.Config || {};
   const nom = document.getElementById('marqueNom'), sous = document.getElementById('marqueSous');
   if (nom) nom.textContent = C.estEcole && C.estEcole() ? 'Mon école' : '' + BJ.csCourt() + '';
-  if (sous) sous.textContent = C.estEcole && C.estEcole() ? 'Circonscription scolaire de ' + BJ.commune() + '' : 'Circonscription scolaire · Plateau';
+  if (sous) sous.textContent = C.estEcole && C.estEcole() ? 'République du Bénin' : 'Circonscription scolaire · Plateau';
   document.querySelectorAll('.version-app').forEach(x => { x.textContent = C.version || '—'; });
   /* Mon école : le logo et le nom de l'école du poste dans la barre */
   function majMarque() {
@@ -30,7 +30,7 @@
     const g = document.querySelector('.marque .logo-g');
     if (g && global.LogoEcole) { g.innerHTML = global.LogoEcole.svgDe(e, 34); g.classList.add('logo-ecole'); }
     if (nom) nom.textContent = e.nom;
-    if (sous && e.devise) sous.textContent = e.devise;
+    if (sous) sous.textContent = e.devise || (e.commune ? 'Commune de ' + e.commune : 'République du Bénin');
     const t = document.getElementById('titreApplication'), st = document.getElementById('sousTitreApplication');
     if (t && global.LogoEcole) { t.innerHTML = ''; const l = document.createElement('span'); l.className = 'bh-logo-ecole'; l.innerHTML = global.LogoEcole.svgDe(e, 26); t.append(l, document.createTextNode(' ' + e.nom)); }
     if (st && e.devise) st.textContent = '« ' + e.devise + ' »';

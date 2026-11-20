@@ -24,7 +24,7 @@
     ['presenceApprenants', '\uE017', 'Présences', 'Appel du jour'], ['notes', '\uE010', 'Notes et bulletins', 'Évaluations'],
     ['registres', '\uE00F', 'Registres et synthèse', 'Appel, affichage, statistiques'], ['educmaster', '\uE058', 'EducMaster', 'Élèves et notes'],
     ['personnel', '\uE01C', 'Personnel', 'Enseignants'], ['cep', '\uE00F', 'Inscription CEP', 'Fiches candidats'],
-    ['docsref', '\uE031', 'Documents officiels', 'Calendrier, emplois du temps'], ['echanges', '\uE058', 'Envoyer à la CS', 'Paquet de l’école'],
+    ['docsref', '\uE031', 'Documents officiels', 'Calendrier, emplois du temps'],
     ['fiches', '\uE011', 'Fiches officielles', 'À imprimer'], ['backup', '\uE007', 'Sauvegarde', 'Garder une copie']
   ];
 

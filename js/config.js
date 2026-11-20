@@ -10,7 +10,8 @@
 
   /* Les pages réservées à la circonscription. */
   const PAGES_CIRCONSCRIPTION = [
-    'ecoles',            // la liste des 155 écoles
+    'ecoles',            // la liste des écoles de la circonscription
+    'echanges', 'synoptique', 'effectifsZone', 'cepZone', 'ecolesZone', 'infraZone',   // synthèses de zone, réservées au bureau de la circonscription
     'administratif',     // le personnel du bureau de la circonscription
     'analyses',          // les écarts et synthèses de la circonscription
     'cm2',               // le suivi des candidats au CEP de toutes les écoles
