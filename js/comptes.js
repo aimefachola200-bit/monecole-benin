@@ -12,7 +12,7 @@
   const PREFIXE = { directeur: 'dir', adjoint: 'adj', secretaire: 'sec', enseignant: 'ens', ape: 'ape' };
   const SANS = { adjoint: ['comptes'], secretaire: ['comptes', 'backup', 'importation'] };
   const SEULEMENT = {
-    enseignant: ['dashboard', 'alertes', 'listesClasse', 'presenceApprenants', 'notes', 'registres', 'apprenants', 'docsref', 'evaluations', 'pedagogie', 'fiches', 'monCompte'],
+    enseignant: ['dashboard', 'alertes', 'listesClasse', 'presenceApprenants', 'notes', 'registres', 'apprenants', 'docsref', 'evaluations', 'pedagogie', 'fiches', 'secondaire', 'monCompte'],
     ape: ['dashboard', 'docsref', 'effectifs', 'monCompte']
   };
   const enc = new TextEncoder();

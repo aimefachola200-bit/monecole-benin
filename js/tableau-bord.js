@@ -59,7 +59,8 @@
     /* raccourcis */
     const vis = p => !global.Config || global.Config.pageVisible(p);
     const existe = p => !!document.querySelector('.menu-item[data-page="' + p + '"]');
-    const racc = (ecole() ? RACCOURCIS_ECOLE : RACCOURCIS_CS).filter(([p]) => vis(p) && existe(p));
+    const sec = ecole() && global.Secondaire && global.Secondaire.est();
+    const racc = (sec ? [['secondaire', '\uE021', 'Secondaire et technique', 'Classes, élèves, notes, bulletins']] : []).concat(ecole() ? RACCOURCIS_ECOLE : RACCOURCIS_CS).filter(([p]) => vis(p) && existe(p));
     const raccHtml = '<div class="raccourcis">'
       + (al.length ? '<a href="#" class="alerte" onclick="event.preventDefault();' + lien('alertes') + '"><span class="ico">\uE041</span><b>Alertes</b><span class="d">' + al.length + ' point(s) à voir</span></a>' : '')
       + racc.map(([p, i, t, s]) => '<a href="#" data-raccourci="' + p + '" onclick="event.preventDefault();' + lien(p) + '"><span class="ico">' + i + '</span><b>' + t + '</b><span class="d">' + s + '</span></a>').join('') + '</div>';
