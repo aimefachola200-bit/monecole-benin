@@ -13,7 +13,7 @@
   const SANS = { adjoint: ['comptes'], secretaire: ['comptes', 'backup', 'importation'] };
   const SEULEMENT = {
     enseignant: ['dashboard', 'alertes', 'listesClasse', 'presenceApprenants', 'notes', 'registres', 'apprenants', 'docsref', 'evaluations', 'pedagogie', 'fiches', 'secondaire', 'monCompte'],
-    ape: ['dashboard', 'docsref', 'effectifs', 'monCompte']
+    ape: ['dashboard', 'docsref', 'effectifs', 'ape', 'monCompte']
   };
   const enc = new TextEncoder();
   const A = () => global.AppBridge, esc = s => (A() ? A().echapper(s) : String(s));

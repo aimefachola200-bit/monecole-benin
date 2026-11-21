@@ -11,6 +11,7 @@
   /* Les pages réservées à la circonscription. */
   const PAGES_CIRCONSCRIPTION = [
     'ecoles',            // la liste des écoles de la circonscription
+    'personnelZones',    // personnel par zone, section et cours
     'echanges', 'synoptique', 'effectifsZone', 'cepZone', 'ecolesZone', 'infraZone',   // synthèses de zone, réservées au bureau de la circonscription
     'administratif',     // le personnel du bureau de la circonscription
     'analyses',          // les écarts et synthèses de la circonscription
@@ -46,5 +47,5 @@
 
   /* Version de l'application (affichée dans le menu ; lue aussi pour l'APK et l'installateur Windows). */
   global.Config = { MODE, estEcole, pageVisible, PAGES_CIRCONSCRIPTION, TITRES,
-    version: '3.6.2' };
+    version: 'Bénin 1.3' };
 })(window);

@@ -12,7 +12,7 @@
     'presencesApprenants', 'presencesPersonnel', 'joursFeries', 'bilans', 'themesDone', 'whatsapp',
     'officielPerso',   // v2.0 : emplois du temps et planifications modifiés sur cet appareil
     'reglages',        // v2.3 : réglages et versions des données de référence appliquées
-    'secClasses', 'secEleves', 'secMatieres', 'secNotes',   // v1.2 : secondaire et technique (6e à la Terminale)
+    'secClasses', 'secEleves', 'secMatieres', 'secNotes', 'apeBureaux', 'apeMembres', 'apeReunions', 'apeCaisse',   // v1.2 : secondaire et technique (6e à la Terminale)
     'ecolesInactives'];  // v2.3.1 : écoles ne fonctionnant plus (avec leurs effectifs, locaux, mobilier) — hors des listes actives
   // v2.3 : réglages et versions des données de référence appliquées (zones, UP, effectifs officiels)
 

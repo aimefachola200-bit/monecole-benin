@@ -1,5 +1,5 @@
 {
- "version": "c3bae13cf21d",
+ "version": "2b11b89f788b",
  "files": [
   "./",
   "LISEZ-MOI.pdf",
@@ -52,6 +52,7 @@
   "icons/icon-maskable-512.png",
   "index.html",
   "js/ameliorations.js",
+  "js/ape.js",
   "js/app.js",
   "js/benin-geo.js",
   "js/bilan-schema.js",

@@ -209,6 +209,5 @@
     if (!fn.__sec) { const w = function (id, el, r) { if (id === 'secondaire') vue(); return fn.call(this, id, el, r); }; w.__sec = true; global.showPage = w; }
   }
   global.Secondaire = { installer, est, moyenneMatiere, resultats, _etat: etat };
-  document.addEventListener('DOMContentLoaded', () => { setTimeout(installer, 700); setTimeout(installer, 2500); });
-  if (document.readyState !== 'loading') { setTimeout(installer, 700); setTimeout(installer, 2500); }
+  setInterval(installer, 1500);   // l'école du poste peut être choisie ou changée après le chargement
 })(window);
