@@ -47,5 +47,5 @@
 
   /* Version de l'application (affichée dans le menu ; lue aussi pour l'APK et l'installateur Windows). */
   global.Config = { MODE, estEcole, pageVisible, PAGES_CIRCONSCRIPTION, TITRES,
-    version: 'Bénin 1.3' };
+    version: 'Bénin 1.4' };
 })(window);

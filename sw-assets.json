@@ -1,5 +1,5 @@
 {
- "version": "2b11b89f788b",
+ "version": "9625ad74c78b",
  "files": [
   "./",
   "LISEZ-MOI.pdf",
@@ -115,6 +115,7 @@
   "js/uascep.js",
   "js/whatsapp.js",
   "js/zones-cp.js",
+  "maj-monecole-prive.js",
   "manifest.webmanifest",
   "sw.js"
  ]
