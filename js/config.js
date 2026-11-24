@@ -18,6 +18,7 @@
     'cm2',               // le suivi des candidats au CEP de toutes les écoles
     'examen',            // l'examen blanc et ses centres
     'visites',           // les visites et inspections
+    'espaces',           // les espaces des divisions de la circonscription (Chef, Secrétariat, C/DOSP, CP de zone)
     'courriers',         // l'archive du courrier de la circonscription
     'repertoires', 'bilans',       // les répertoires de la circonscription
     'whatsapp',          // le groupe WhatsApp des directeurs, administré par la circonscription
@@ -47,5 +48,5 @@
 
   /* Version de l'application (affichée dans le menu ; lue aussi pour l'APK et l'installateur Windows). */
   global.Config = { MODE, estEcole, pageVisible, PAGES_CIRCONSCRIPTION, TITRES,
-    version: 'Bénin 1.4' };
+    version: 'Bénin 1.5' };
 })(window);
